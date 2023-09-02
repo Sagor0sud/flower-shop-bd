@@ -1,0 +1,323 @@
+/* Common shared style */
+body
+{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.primary-btn
+{
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.banner{
+    display: flex; 
+    align-items: center;
+    background-color:#E554731A ;
+    width: 1920px;
+    height: 850px;
+    background-image:url(../images/pngwing\ 10.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+}
+.banner-titam{
+    padding: 197px 972px 147px 240px; 
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* main section style */
+.Featured{
+    width: 594px;
+    height: 132px;
+    padding: 178px 663px 24px 663px;
+    text-align: center;
+}
+.Featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Featured-paragraph{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+/* flower-tree section */
+.flower-tree{
+    padding-top: 48px;
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    gap: 1%;
+}
+.pink-tulip{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.red-tulip{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.yellow-tulip{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+.pink-tulip-pic{
+    padding: 110px 78px 0px 76px ;
+}
+.red-tulip-pic{
+    padding: 117px 47px 118px 47px ;
+}
+.yellow-tulip-pic{
+    padding: 67px 75px 67px 75px;
+}
+/* flower-tree-name section */
+.flower-tree-name{
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.Pink-Tulip-tree{
+    padding: 10px 100px 30px 150px;
+}
+.Red-Tulip-tree{
+    padding: 10px 100px 30px 150px;
+}
+.Yellow-Tulip-tree{
+    padding: 10px 100px 30px 150px;
+}
+.customar-section{
+    width: 1440px;
+    height: 320px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 10px 240px 10px 240px;
+}
+.customar-section-pic{
+    display: flex;
+    gap: 24%;
+    align-items: center;
+    
+}
+.Group-57{
+    padding: 80px 15px 0px 120px ;
+}
+.Group-58{
+    padding: 80px 10px 0px 60px ;
+}.Group-59{
+    padding: 80px 15px 0px 70px ;
+}
+.customar-section-support{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.Group-57-title{
+    padding: 5px 15px 0px 80px ;
+}
+.Group-58-title{
+    padding: 5px 15px 0px 80px ;
+}
+.Group-59-title{
+    padding: 5px 15px 0px 140px ;
+}
+/* offer section style */ 
+.offer-section{
+    margin-top: 128px;
+    margin-bottom: 50px;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+}
+.offer-itam{
+    padding: 230px 1px 162px 393px;
+    align-items: center;
+  
+
+}
+.offer-headline{
+    font-size: 40px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+.offer-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.offer-image{
+    width: 318px;
+    height: 420px;
+    padding: 100px 429px 100px 186px;
+}
+
+/* only-flower-pic */
+
+.only-flower-pic{
+    display: flex;
+    gap: 1.5%;
+    padding: 80px 240px 80px 240px;
+}
+/* Social section style */
+.Social{
+    margin-top: 5px;
+    margin-bottom: 80px;
+    width: 594px;
+    height: 132px;
+    padding: 178px 663px 24px 663px;
+    text-align: center;
+}
+.Social-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Social-paragraph{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+      
+}
+/* flower-price-section */
+.flower-price-section{
+    margin-top: 280px;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px 8px 8px 8px ;
+    background: rgba(234, 71, 106, 0.05);
+    display: flex;
+}
+.flower-price-picture{
+    padding-top: 100px;
+    display: flex;
+    width: 200px;
+    height: 280px;
+    gap: 5%; 
+}
+.flower-price-taka{
+     display: flex; 
+     padding: 400px 0px 0px 0px;
+     gap: 280px;
+}
+ /* Get The Latest Deals */
+
+.Latest-deals{ 
+    width: 1440px;
+    height: 449px;
+    background-image:url(../images/Rectangle\ 9.png) ;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 80px 240px 30px 240px;
+}
+.Latest-deals-coupon{
+    text-align: center;
+    padding: 80px 0px 190px 0px;
+}
+.Latest-deals-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Latest-deals-shopping-offer{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400px;
+}
+#emailaddress{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 10px 40px 80px 10px;
+}
+.btn-subscribe{
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    margin: 5px;
+
+}
+.btn-subscribe-css{
+    width: 88px;
+    height: 27.429px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;    
+}
+
+
+
+
+/* footer section style */
+footer{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    text-align: center;
+    font-weight: 800;
+    color: #FFF;
+    margin-top: 150px;
+}
+.footer-title{
+   
+    font-size: 48px;
+    padding-top: 128px;
+
+}
+.footer-decspertion{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyright-issue{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+span
+{
+    color: #E55473;
+}
